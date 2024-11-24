@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EverCare - Mantenimiento y Marketplace</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Encabezado -->
+    <header class="main-header">
+        <div class="container">
+            <h1>EverCare</h1>
+            <nav>
+                <ul>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#como-funciona">Cómo Funciona</a></li>
+                    <li><a href="#marketplace">Marketplace</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Sección de Servicios -->
+    <section id="servicios" class="section">
+        <div class="container">
+            <h2>Servicios</h2>
+            <p>Ofrecemos mantenimiento predictivo, preventivo y correctivo con tecnología de IA. Además, te conectamos con los mejores técnicos locales.</p>
+            <div class="services-grid">
+                <div class="service">
+                    <h3>Hogar</h3>
+                    <p>Reparaciones eléctricas, plomería y más.</p>
+                </div>
+                <div class="service">
+                    <h3>Empresas</h3>
+                    <p>Mantenimiento de equipos industriales y oficinas.</p>
+                </div>
+                <div class="service">
+                    <h3>Vehículos</h3>
+                    <p>Revisión y reparación de flotas de transporte.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Cómo Funciona -->
+    <section id="como-funciona" class="section">
+        <div class="container">
+            <h2>Cómo Funciona</h2>
+            <ol>
+                <li>El cliente registra su incidencia o necesidad en nuestra plataforma.</li>
+                <li>La IA asigna automáticamente el técnico más adecuado.</li>
+                <li>El técnico realiza el servicio, garantizando calidad y rapidez.</li>
+            </ol>
+        </div>
+    </section>
+
+    <!-- Sección Marketplace -->
+    <section id="marketplace" class="section">
+        <div class="container">
+            <h2>Marketplace</h2>
+            <p>¿Eres técnico o empresa de mantenimiento? Únete a nuestra red y encuentra más clientes.</p>
+            <button onclick="registrarse()">Registrarse como técnico</button>
+        </div>
+    </section>
+
+    <!-- Sección Contacto -->
+    <section id="contacto" class="section">
+        <div class="container">
+            <h2>Contacto</h2>
+            <form id="contact-form">
+                <input type="text" placeholder="Nombre" required>
+                <input type="email" placeholder="Correo Electrónico" required>
+                <textarea placeholder="Mensaje" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Pie de página -->
+    <footer class="main-footer">
+        <div class="container">
+            <p>© 2024 EverCare. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
